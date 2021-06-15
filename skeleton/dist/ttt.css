@@ -1,0 +1,37 @@
+.ttt-board {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.ttt-square {
+    display: flex;
+    background-color: gray;
+    width: 148px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle;
+    line-height: 148px; */
+    font-size: 60px;
+}
+.ttt-square:hover{
+    background-color: yellow;
+}
+
+li {
+    list-style: none;
+}
+
+.x {
+    color: blue;
+    background-color: white;
+
+}
+
+.o{
+    color: red;
+    background-color: white;
+}
